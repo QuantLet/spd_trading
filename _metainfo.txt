@@ -1,23 +1,22 @@
 Name of Quantlet: 'spd_trading'
 
-Published in: 'MANDATORY!'
+Published in: 'Trading Strategies for Bitcoin Options using State Price Densities (Master Thesis)'
 
-Description: 'MANDATORY!'
+Description: 'This package estimates the Risk Neutral Density (RND) and Historical Density (HD) of an underlying 
+and suggests a trading strategy based on the Pricing Kernel K=RND/HD. Uses package localpoly for all fits.'
 
-Keywords: 'MANDATORY! You need at least 5 keywords' 
+Keywords: 'Risk Neutral Density, Historical Density, RND, HD, Pricing Kernel, Bitcoin Options, Rookley' 
 
-Author: 'MANDATORY'
+Author: 'Franziska Wehrmann'
 
-See also: 'optional: listing related Quantlets or Github code'
+See also: 'https://github.com/QuantLet/localpoly/'
 
-Submitted:  'optional: e.g. 01. Jan 2019, John Doe'
+Submitted:  '11. May 2021'
 
-Datafile: 'optional: for your data sets - delete if not used'
+Input: 'BTC Option Table for RND, BTCUSD Index Timeseries for HD'
 
-Input: 'optional'
+Output:  'Estimated RND and HD, Pricing Kernel and suggested buy-/sell- intervals'
 
-Output:  'optional'
-
-Additional Info:
-- Please note, this is a fork of a original package as of 2021-05-12, the original can be found here  https://github.com/franwe/spd_trading
-- The PyPi documentation can be found under this link https://spd_trading.readthedocs.io/en/latest/'
+Additional Info: 
+- Please note, this is a fork of a original package as of 2021-05-11, the original can be found here  https://github.com/franwe/spd_trading
+- The PyPi documentation can be found under this link https://spd-trading.readthedocs.io/en/latest/'
